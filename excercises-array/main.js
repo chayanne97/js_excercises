@@ -9,9 +9,10 @@
 // nombredelArray [posicion]
 
 //ejemplo
-var colores = ['negro','verde','rojo','azul','naranja' ];
+//var colores = ['negro','verde','rojo','azul','naranja' ];
 
 //console.log(colores);
 
-colores['negro'] = "gris"
-console.log(colores);
+//colores['negro'] = "gris"
+//console.log(colores);
+var frutas=['mandarina','naranja','pera'];
