@@ -5,7 +5,13 @@
 // ejecutar nuestra funcion 
 
 function resta (a,b){
-    var resta=a-b;
+    var resta=parseint(a)-parseint(b);
     return 'la resta es: '+ resta; 
 }
-resta(3,2)
+//solicitar dos numeros al usuario 
+var inputusuario1=prompt('Ingrese un numero')
+var inputusuario2=prompt('ingrese otro numeor')
+//guardamos el resultado en una variable
+var resultado= resta(inputusuario1,inputusuario2)
+
+console.log(resultado)
