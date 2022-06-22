@@ -14,3 +14,10 @@ if (numberUser % 2 == 0){
 }else{
     alert(numberUser + " no es divisible entre dos")
 }
+// solicitar un numero de usuario, si es 100 es ganador 
+let clientID=prompt("Ingrese su número de cliente")
+if (clientID == 1000){
+    alert("Te haz ganado un auuutooo")
+}else{
+    alert("lo siento, no haz ganado :( ")
+}
